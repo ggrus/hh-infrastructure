@@ -5,6 +5,8 @@ module.exports = {
       'selector-max-id': 1,
       'declaration-property-value-disallowed-list': null,
       'declaration-property-value-allowed-list': null,
+      'unit-allowed-list': ['fr', 'rem', 'px', '%', 's', 'ms', 'em', 'deg', 'vh', 'vw'],
+      'font-weight-notation': 'numeric',
   },
   ignoreFiles: ['dist/assets/*.css'],
 };
